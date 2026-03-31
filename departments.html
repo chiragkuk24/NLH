@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments - Nand Lal Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone-alt phone-icon"></i> Emergency: +91 9050100777</span>
+                <span><i class="fas fa-envelope"></i> nandlalhospital24@gmail.com</span>
+                <span><i class="fas fa-map-marker-alt"></i> Near Flyover, Shradhanand Chowk, Jyoti Nagar, Kurukshetra, India, Haryana</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="https://www.facebook.com/nandlalhospitalkkr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/nandlalhospitalkkr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Nand Lal Hospital Logo">
+                <h1>Nand Lal Hospital</h1>
+            </a>
+            <nav class="navbar">
+                <ul id="navbar-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="departments.html" class="active">Departments</a></li>
+                    <li><a href="patient-care.html">Patient Care</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-toggle" aria-label="Menu" aria-expanded="false" aria-controls="navbar-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Departments Hero -->
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="slide active">
+                    <div class="slide-content">
+                        <h2>Specialized Medical Departments</h2>
+                        <p>Our hospital houses advanced departments equipped with modern technology and staffed by expert medical professionals.</p>
+                        <a href="#department-list" class="btn-hero">View Departments</a>
+                        <a href="#facilities" class="btn-hero outline">Our Facilities</a>
+                    </div>
+                    <div class="slide-image">
+                        <img src="https://images.unsplash.com/photo-1516549655669-df6654e435de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Hospital Department">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Department List -->
+        <section id="department-list" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Our Departments</h3>
+                    <h2>Comprehensive Specialized Care</h2>
+                    <p>Each department is designed to provide focused, high‑quality treatment for specific medical conditions.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" id="pediatrics">
+                        <div class="service-icon">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <h4>Pediatrics & Neonatology</h4>
+                        <p>Specialized care for newborns, children, and adolescents with a child‑friendly environment.</p>
+                        <a href="services.html#pediatrics">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="gynecology">
+                        <div class="service-icon">
+                            <i class="fas fa-venus"></i>
+                        </div>
+                        <h4>Gynecology & Obstetrics</h4>
+                        <p>Complete women's health services, from prenatal care to advanced gynecological surgeries.</p>
+                        <a href="services.html#gynecology">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section id="facilities" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h3>Our Facilities</h3>
+                    <h2>World‑Class Infrastructure</h2>
+                    <p>Each department is supported by cutting‑edge technology and dedicated support staff to ensure seamless patient care.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Emergency & Trauma Center</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced ICU & NICU</li>
+                        <li><i class="fas fa-check-circle"></i> Modular Operation Theaters</li>
+                        <li><i class="fas fa-check-circle"></i> Digital Imaging & Radiology</li>
+                        <li><i class="fas fa-check-circle"></i> Fully Automated Laboratory</li>
+                        <li><i class="fas fa-check-circle"></i> Pharmacy & Rehabilitation Center</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Hospital Facilities">
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Need to Visit a Specific Department?</h2>
+                <p>Contact our department coordinators for appointments and inquiries.</p>
+                <a href="contact.html" class="btn-cta">Contact Department</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="Nand Lal Hospital Logo">
+                        <h3>Nand Lal Hospital</h3>
+                    </div>
+                    <p>A trusted name in healthcare, delivering excellence with compassion for over two decades.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/nandlalhospitalkkr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nandlalhospitalkkr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="doctors.html">Doctors</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services.html#pediatrics">Pediatrics</a></li>
+                        <li><a href="services.html#gynecology">Gynecology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Near Flyover, Shradhanand Chowk, Jyoti Nagar, Kurukshetra, India, Haryana</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 9050100777</li>
+                        <li><i class="fas fa-envelope"></i> nandlalhospital24@gmail.com</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Emergency Services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nand Lal Hospital. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>

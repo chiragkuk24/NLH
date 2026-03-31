@@ -91,9 +91,6 @@ button:focus,
     color: #4fc3f7;
 }
 
-.phone-icon {
-    transform: scaleX(-1);
-}
 
 .top-bar-right a {
     color: #fff;
